@@ -7,11 +7,19 @@ h1{
     font-size: 50px;
     
 }
+
+h2 {
+    font-size: 40px;
+}
 a {
     text-decoration: none;
 }
-.welcome-area{
+.flexible-container {
     display: flex;
+}
+
+
+.welcome-area{
     margin-bottom: 150px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -40,4 +48,42 @@ a {
     padding: 10px 40px;
     /* font-size: 20px; */
     border-radius: 5px;
+}
+.dream-area {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 150px;
+}
+
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-bottom: 150px;
+}
+
+
+.full-stack {
+    box-shadow: 10px 10px 40px gray;
+    padding: 0px 20px 80px;
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+
+
+
+
+
+.baby-web {
+    box-shadow: 10px 10px 40px gray;
+    padding: 0px 20px 80px;
+    border-radius: 10px;
+    border-image: linear-gradient(blue, cyan);
+    border-left: 5px solid;
+    border-image-slice: 1;
+
 }
